@@ -77,3 +77,40 @@ text-align: center;
 .hero-img {
     border-radius: 8px;
 }
+
+.info-section {
+    text-align: center;
+    background-color: #bfc0c0;
+    padding: 64px;
+}
+
+.info-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 24px;
+    
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.info > img {
+    width: 100px;
+    height: auto;
+    border: solid 3px;
+    border-radius: 10px;
+
+}
+.info {
+    max-width: 100px;
+}
+
+.infotext {
+    color: white;
+    font-size: 24px;
+}
