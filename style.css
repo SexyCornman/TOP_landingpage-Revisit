@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    
+}
+
+.link {
+    font-size: 18px;
+    color: beige;
+}
+
+
+.navbar {
+    background-color: #242124;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px;
+
+}
+
+.navlink{
+    display: flex;
+    gap: 12px;
+}
+
+.headerlogo {
+   font-size: 24px; 
+   font-weight: 800;
+   color: beige;
+}
