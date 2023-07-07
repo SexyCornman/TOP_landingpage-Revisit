@@ -114,3 +114,34 @@ text-align: center;
     color: white;
     font-size: 24px;
 }
+
+.quote-container {
+background-color: beige;
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1;
+padding: 64px;
+
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.quote-ref {
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
