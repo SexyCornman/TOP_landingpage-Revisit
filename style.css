@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -31,4 +33,47 @@ a {
    font-size: 24px; 
    font-weight: 800;
    color: beige;
+}
+
+.hero {
+    background-color:#242124 ;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.hero-title {
+   font-size: 48px; 
+   font-weight: 900;
+   color: beige;
+
+}
+
+.hero-button {
+background-color: azure;
+width: 160px;
+padding: 18px;
+border-radius: 8px;
+text-align: center;
+
+}
+
+.hero-text {
+    color: beige;
+    font-size: 18px;
+}
+
+.hero-img {
+    border-radius: 8px;
 }
