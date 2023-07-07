@@ -39,7 +39,7 @@ a {
     background-color:#242124 ;
     display: flex;
     flex: 1;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 24px;
     
@@ -144,4 +144,36 @@ padding: 64px;
 .call-to-action {
     display: flex;
     justify-content: center;
+    background-color:#bfc0c0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 64px;
+}
+
+.action-box {
+    background-color: #242124;
+    border-radius: 16px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 24px;
+    max-width: 800px;
+    
+}
+
+.action-text ,
+.text {
+    font-size: 24px;
+    color: bisque;
+}
+
+.action-button {
+    background-color: azure;
+    width: 160px;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
 }
