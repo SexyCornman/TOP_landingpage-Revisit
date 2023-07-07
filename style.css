@@ -177,3 +177,10 @@ padding: 64px;
     border-radius: 8px;
     text-align: center;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
